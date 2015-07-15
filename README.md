@@ -14,7 +14,7 @@ These instructions assume that a valid maven installation is available. The reco
 
 2a) Run command: `mvn clean package`: This will trigger a complete build of all OWLTools projects and generate the required jars for execution. Remark: As part of the build the tests are executed. Any failed test will stop the build.
 
-2b) Build without test execution (Not Recommended): Run command: mvn clean package -Dmaven.test.skip.exec=true
+2b) Build without test execution (Not Recommended): Run command: `mvn clean package -Dmaven.test.skip.exec=true`
   
 #### Option 2: Eclipse
 
